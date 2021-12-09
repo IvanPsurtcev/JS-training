@@ -23,7 +23,7 @@ app.use(lingRoutes)
 
 async function start() {
     try {
-        await mongoose.connect('//', {
+        await mongoose.connect('//Cluster', {
             useNewUrlParser: true,
             useUnifiedTopology: true
         })
